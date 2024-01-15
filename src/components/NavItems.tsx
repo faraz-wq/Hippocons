@@ -2,7 +2,7 @@
 import { PRODUCT_CATEGORIES } from "@/config"
 import { useState,useRef, useEffect } from "react"
 import NavItem from "./NavItem"
-import { useOnClickOutside } from "@/hooks.ts/use-on-click-outside"
+import { useOnClickOutside } from "@/hooks/use-on-click-outside"
 
 const NavItems = () => {
     const [ActiveIndex, setActiveIndex] = useState<
