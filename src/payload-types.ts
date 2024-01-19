@@ -106,7 +106,7 @@ export interface Order {
   id: string;
   _isPaid: boolean;
   user: string | User;
-  products?: (string | Product)[] | null;
+  products: (string | Product)[];
   updatedAt: string;
   createdAt: string;
 }
