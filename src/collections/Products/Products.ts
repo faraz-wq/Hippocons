@@ -71,11 +71,11 @@ export const Products : CollectionConfig = {
                 },
                 {
                     label:'Approved',
-                    value:'Approved',
+                    value:'approved',
                 },
                 {
                     label:'Denied',
-                    value:'Denied',
+                    value:'denied',
                 }
             ],
         
