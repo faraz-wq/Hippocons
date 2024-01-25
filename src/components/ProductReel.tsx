@@ -8,8 +8,8 @@ import { Product } from "@/payload-types"
 
 interface ProductReelprops {
     title: string,
-    subtitle: string,
-    href: string,
+    subtitle?: string,
+    href?: string,
     query: TQueryValidator,
 }
 
